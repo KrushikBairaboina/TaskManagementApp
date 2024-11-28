@@ -30,8 +30,8 @@ Follow these steps to clone and run the project locally:
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/task-management-app.git
-cd task-management-app
+git clone https://github.com/KrushikBairaboina/TaskManagementApp.git
+cd TaskManagementAppw
 ```
 
 ### 2. Install Dependencies
@@ -54,8 +54,8 @@ npm install
 #### Backend
 Create a `.env` file in the `backend` directory and add the following:
 ```env
-MONGO_URI=your_mongodb_connection_string
-PORT=5000
+MONGO_URL=mongodb+srv://krushikbairaboina07:krushik@crudapplication.0fo8c.mongodb.net/?retryWrites=true&w=majority&appName=CrudApplication
+PORT=8080
 ```
 
 Replace `your_mongodb_connection_string` with your MongoDB connection string.
@@ -70,7 +70,7 @@ cd backend
 npm start
 ```
 
-The backend server will run on [http://localhost:5000](http://localhost:5000) by default.
+The backend server will run on (http://localhost:8080).
 
 #### Start the Frontend
 ```bash
@@ -78,7 +78,7 @@ cd frontend
 npm start
 ```
 
-The frontend will run on [http://localhost:3000](http://localhost:3000) by default.
+The frontend will run on (http://localhost:3000/task) by default.
 
 ---
 
@@ -118,6 +118,7 @@ Here are the key API routes available in the backend:
 
 
 
+
 ---
 
 ## Contributing
@@ -131,9 +132,10 @@ This project is licensed under the MIT License.
 ---
 
 ## Author
-- Krushik Bairaboin
-- GitHub: (https://github.com/yourusername)
+- Krushik Bairaboina
+- GitHub: (https://github.com/KrushikBairaboina)
 
 ---
 
 Let me know if you want me to customize it further or help you with the screenshots and project links!
+
